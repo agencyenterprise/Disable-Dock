@@ -11,58 +11,20 @@
 		51ED103C28984AE900498CD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51ED103B28984AE900498CD2 /* ViewController.swift */; };
 		51ED103E28984AEA00498CD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51ED103D28984AEA00498CD2 /* Assets.xcassets */; };
 		51ED104128984AEA00498CD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51ED103F28984AEA00498CD2 /* Main.storyboard */; };
-		51ED104C28984AEA00498CD2 /* Diable_DockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51ED104B28984AEA00498CD2 /* Diable_DockTests.swift */; };
-		51ED105628984AEB00498CD2 /* Diable_DockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51ED105528984AEB00498CD2 /* Diable_DockUITests.swift */; };
-		51ED105828984AEB00498CD2 /* Diable_DockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51ED105728984AEB00498CD2 /* Diable_DockUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		51ED104828984AEA00498CD2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 51ED102E28984AE900498CD2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 51ED103528984AE900498CD2;
-			remoteInfo = "Diable Dock";
-		};
-		51ED105228984AEB00498CD2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 51ED102E28984AE900498CD2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 51ED103528984AE900498CD2;
-			remoteInfo = "Diable Dock";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		51ED103628984AE900498CD2 /* Diable Dock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Diable Dock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51ED103628984AE900498CD2 /* Disable Dock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Disable Dock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51ED103928984AE900498CD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51ED103B28984AE900498CD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		51ED103D28984AEA00498CD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51ED104028984AEA00498CD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51ED104228984AEA00498CD2 /* Diable_Dock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Diable_Dock.entitlements; sourceTree = "<group>"; };
-		51ED104728984AEA00498CD2 /* Diable DockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Diable DockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		51ED104B28984AEA00498CD2 /* Diable_DockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diable_DockTests.swift; sourceTree = "<group>"; };
-		51ED105128984AEB00498CD2 /* Diable DockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Diable DockUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		51ED105528984AEB00498CD2 /* Diable_DockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diable_DockUITests.swift; sourceTree = "<group>"; };
-		51ED105728984AEB00498CD2 /* Diable_DockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diable_DockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		51ED106428984C1500498CD2 /* Diable-Dock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Diable-Dock-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		51ED103328984AE900498CD2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		51ED104428984AEA00498CD2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		51ED104E28984AEB00498CD2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,8 +38,6 @@
 			isa = PBXGroup;
 			children = (
 				51ED103828984AE900498CD2 /* Diable Dock */,
-				51ED104A28984AEA00498CD2 /* Diable DockTests */,
-				51ED105428984AEB00498CD2 /* Diable DockUITests */,
 				51ED103728984AE900498CD2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +45,7 @@
 		51ED103728984AE900498CD2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				51ED103628984AE900498CD2 /* Diable Dock.app */,
-				51ED104728984AEA00498CD2 /* Diable DockTests.xctest */,
-				51ED105128984AEB00498CD2 /* Diable DockUITests.xctest */,
+				51ED103628984AE900498CD2 /* Disable Dock.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +53,7 @@
 		51ED103828984AE900498CD2 /* Diable Dock */ = {
 			isa = PBXGroup;
 			children = (
+				51ED106428984C1500498CD2 /* Diable-Dock-Info.plist */,
 				51ED103928984AE900498CD2 /* AppDelegate.swift */,
 				51ED103B28984AE900498CD2 /* ViewController.swift */,
 				51ED103D28984AEA00498CD2 /* Assets.xcassets */,
@@ -104,29 +63,12 @@
 			path = "Diable Dock";
 			sourceTree = "<group>";
 		};
-		51ED104A28984AEA00498CD2 /* Diable DockTests */ = {
-			isa = PBXGroup;
-			children = (
-				51ED104B28984AEA00498CD2 /* Diable_DockTests.swift */,
-			);
-			path = "Diable DockTests";
-			sourceTree = "<group>";
-		};
-		51ED105428984AEB00498CD2 /* Diable DockUITests */ = {
-			isa = PBXGroup;
-			children = (
-				51ED105528984AEB00498CD2 /* Diable_DockUITests.swift */,
-				51ED105728984AEB00498CD2 /* Diable_DockUITestsLaunchTests.swift */,
-			);
-			path = "Diable DockUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		51ED103528984AE900498CD2 /* Diable Dock */ = {
+		51ED103528984AE900498CD2 /* Disable Dock */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 51ED105B28984AEB00498CD2 /* Build configuration list for PBXNativeTarget "Diable Dock" */;
+			buildConfigurationList = 51ED105B28984AEB00498CD2 /* Build configuration list for PBXNativeTarget "Disable Dock" */;
 			buildPhases = (
 				51ED103228984AE900498CD2 /* Sources */,
 				51ED103328984AE900498CD2 /* Frameworks */,
@@ -136,46 +78,10 @@
 			);
 			dependencies = (
 			);
-			name = "Diable Dock";
+			name = "Disable Dock";
 			productName = "Diable Dock";
-			productReference = 51ED103628984AE900498CD2 /* Diable Dock.app */;
+			productReference = 51ED103628984AE900498CD2 /* Disable Dock.app */;
 			productType = "com.apple.product-type.application";
-		};
-		51ED104628984AEA00498CD2 /* Diable DockTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 51ED105E28984AEB00498CD2 /* Build configuration list for PBXNativeTarget "Diable DockTests" */;
-			buildPhases = (
-				51ED104328984AEA00498CD2 /* Sources */,
-				51ED104428984AEA00498CD2 /* Frameworks */,
-				51ED104528984AEA00498CD2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				51ED104928984AEA00498CD2 /* PBXTargetDependency */,
-			);
-			name = "Diable DockTests";
-			productName = "Diable DockTests";
-			productReference = 51ED104728984AEA00498CD2 /* Diable DockTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		51ED105028984AEB00498CD2 /* Diable DockUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 51ED106128984AEB00498CD2 /* Build configuration list for PBXNativeTarget "Diable DockUITests" */;
-			buildPhases = (
-				51ED104D28984AEB00498CD2 /* Sources */,
-				51ED104E28984AEB00498CD2 /* Frameworks */,
-				51ED104F28984AEB00498CD2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				51ED105328984AEB00498CD2 /* PBXTargetDependency */,
-			);
-			name = "Diable DockUITests";
-			productName = "Diable DockUITests";
-			productReference = 51ED105128984AEB00498CD2 /* Diable DockUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -190,17 +96,9 @@
 					51ED103528984AE900498CD2 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
-					51ED104628984AEA00498CD2 = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = 51ED103528984AE900498CD2;
-					};
-					51ED105028984AEB00498CD2 = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = 51ED103528984AE900498CD2;
-					};
 				};
 			};
-			buildConfigurationList = 51ED103128984AE900498CD2 /* Build configuration list for PBXProject "Diable Dock" */;
+			buildConfigurationList = 51ED103128984AE900498CD2 /* Build configuration list for PBXProject "Disable Dock" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -213,9 +111,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				51ED103528984AE900498CD2 /* Diable Dock */,
-				51ED104628984AEA00498CD2 /* Diable DockTests */,
-				51ED105028984AEB00498CD2 /* Diable DockUITests */,
+				51ED103528984AE900498CD2 /* Disable Dock */,
 			);
 		};
 /* End PBXProject section */
@@ -227,20 +123,6 @@
 			files = (
 				51ED103E28984AEA00498CD2 /* Assets.xcassets in Resources */,
 				51ED104128984AEA00498CD2 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		51ED104528984AEA00498CD2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		51ED104F28984AEB00498CD2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,37 +138,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		51ED104328984AEA00498CD2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				51ED104C28984AEA00498CD2 /* Diable_DockTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		51ED104D28984AEB00498CD2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				51ED105828984AEB00498CD2 /* Diable_DockUITestsLaunchTests.swift in Sources */,
-				51ED105628984AEB00498CD2 /* Diable_DockUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		51ED104928984AEA00498CD2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 51ED103528984AE900498CD2 /* Diable Dock */;
-			targetProxy = 51ED104828984AEA00498CD2 /* PBXContainerItemProxy */;
-		};
-		51ED105328984AEB00498CD2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 51ED103528984AE900498CD2 /* Diable Dock */;
-			targetProxy = 51ED105228984AEB00498CD2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		51ED103F28984AEA00498CD2 /* Main.storyboard */ = {
@@ -418,11 +270,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "Diable Dock/Diable_Dock.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Diable-Dock-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -431,7 +285,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ae.studio.disable-dock.Diable-Dock";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ae.studio.disable-dock";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -443,11 +297,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "Diable Dock/Diable_Dock.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Diable-Dock-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -456,85 +312,17 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ae.studio.disable-dock.Diable-Dock";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ae.studio.disable-dock";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		51ED105F28984AEB00498CD2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ae.studio.disable-dock.Diable-DockTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Diable Dock.app/Contents/MacOS/Diable Dock";
-			};
-			name = Debug;
-		};
-		51ED106028984AEB00498CD2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ae.studio.disable-dock.Diable-DockTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Diable Dock.app/Contents/MacOS/Diable Dock";
-			};
-			name = Release;
-		};
-		51ED106228984AEB00498CD2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ae.studio.disable-dock.Diable-DockUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Diable Dock";
-			};
-			name = Debug;
-		};
-		51ED106328984AEB00498CD2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ae.studio.disable-dock.Diable-DockUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Diable Dock";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		51ED103128984AE900498CD2 /* Build configuration list for PBXProject "Diable Dock" */ = {
+		51ED103128984AE900498CD2 /* Build configuration list for PBXProject "Disable Dock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				51ED105928984AEB00498CD2 /* Debug */,
@@ -543,29 +331,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		51ED105B28984AEB00498CD2 /* Build configuration list for PBXNativeTarget "Diable Dock" */ = {
+		51ED105B28984AEB00498CD2 /* Build configuration list for PBXNativeTarget "Disable Dock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				51ED105C28984AEB00498CD2 /* Debug */,
 				51ED105D28984AEB00498CD2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		51ED105E28984AEB00498CD2 /* Build configuration list for PBXNativeTarget "Diable DockTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				51ED105F28984AEB00498CD2 /* Debug */,
-				51ED106028984AEB00498CD2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		51ED106128984AEB00498CD2 /* Build configuration list for PBXNativeTarget "Diable DockUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				51ED106228984AEB00498CD2 /* Debug */,
-				51ED106328984AEB00498CD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
