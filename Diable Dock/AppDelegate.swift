@@ -4,6 +4,7 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     public var statusItem: NSStatusItem!
+    public var menuItem: NSMenuItem!
     public var menu = NSMenu()
     public var currentUrl = "";
     public var currentId = 0;
@@ -18,9 +19,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         statusItem.button?.title = "Toggle Dock";
         statusItem.button?.image = logoImage;
 
-        let one = NSMenuItem(title: "Toggle Dock", action: #selector(self.toggleDock), keyEquivalent: "t")
+        self.menuItem = NSMenuItem(title: "Disable Dock", action: #selector(self.toggleDock), keyEquivalent: "t")
         
-        self.menu.addItem(one)
+        self.menu.addItem(menuItem)
 
         self.menu.addItem(NSMenuItem.separator())
 
@@ -65,6 +66,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         self.execute(c: "/usr/bin/defaults", a: ["write", "com.apple.dock", "no-bounding", "-bool", "TRUE"])
         self.execute(c: "/usr/bin/killall", a: ["Dock"])
+        self.menuItem.title = "Enable Dock"
     }
     
     func openDock() {
@@ -76,6 +78,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         self.execute(c: "/usr/bin/defaults", a: ["write", "com.apple.dock", "no-bounding"])
         self.execute(c: "/usr/bin/killall", a: ["Dock"])
+        self.menuItem.title = "Disable Dock"
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
